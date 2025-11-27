@@ -75,6 +75,15 @@ node server.js
 
 系统使用 SQLite 数据库，数据库文件位于 `backend/database/hrms.db`。
 
+**初始化数据库**
+
+数据库会在首次启动后端时自动创建。如需插入测试数据：
+
+```bash
+cd backend
+node database/seed.js
+```
+
 ## 许可证
 
 MIT License
